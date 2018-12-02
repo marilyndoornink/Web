@@ -1,31 +1,81 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <title>RET Verhalen website</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 </head>
-<body>
-   <nav>
-       <ul>
-           <li>Zoeken</li>   
-           <li>Geliked</li>
-           <li>Gedownload</li>
-           <li>Account</li>
-       </ul>
-   </nav>
-   
-<header>
-     //img hier komt mooie header
-    <h1>welkom op de verhalenpagina van RET</h1>
-</header>
 
-<main>
+<body>
+
+    <header>
+
+        <nav>
+
+            <img src="images/logo%20menu.png" alt="logo van ret">
+            <a href=Zoeken.html> <img src="images/zoek%20icon.png" alt="icon zoeken"> </a>
+            <a href=downloads.html> <img src="images/download%20icon.png" alt="icon dowloads"> </a>
+            <a href=account.html> <img src="images/profiel%20icon.png" alt="account dowloads"> </a>
+            <a href=Likes.html> <img src="images/like%20icon.png" alt="Like icon"> </a>
+
+        </nav>
+
+        <h1>welkom op de verhalenpagina van RET</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Charlie sheen</h2>
+            <img src='images/charlie.png' alt="schilderij van verhaal charlie sheen">
+            <ul>
+                <li>Geestig</li>
+                <li>13 zinnen</li>
+                <li>12.08/2016</li>
+            </ul>
+        </article>
+    </main>
+
+    <form>
+
+        <p>Filter op aantal zinnen</p>
+
+
+        <label>
+            <input type="checkbox" name="zinnen" checked>
+            15-20 zinnen
+        </label>
+
+        <label>
+            <input type="checkbox" name="zinnen" checked>
+            20-25 zinnen
+        </label>
+
+        <label>
+            <input type="checkbox" name="zinnen" checked>
+            30-45 zinnen
+        </label>
+
+        <label>
+            <input type="checkbox" name="zinnen" checked>
+            45+ zinnen
+        </label>
+
+
+        <!--class geven!-->
+
+        <button>Recent</button>
+        <button>Meeste likes</button>
+        <button>Meest gelezen</button>
+
+    </form>
+
     <section>
         <article>
-            <h1>blablabla</h1>
-            <img src='images/charlie.png' alt= "schilderij van verhaal charlie sheen" class="verhaalcharlie-foto"  height="600" width="375">
+            <h2>Charlie sheen</h2>
+            <img src='images/charlie.png' alt="schilderij van verhaal charlie sheen">
             <ul>
                 <li>Geestig</li>
                 <li>13 zinnen</li>
@@ -33,77 +83,12 @@
             </ul>
         </article>
     </section>
-       </main>
-    
-    <form>
-      
-     <!-- <fieldset>
-           <legend>filter op aantal zinnen</legend>
-           <li>
-               <input type="checkbox" id="10-15 zinnen" name="10-15 zinnen" value="10-15 zinnen">
-               <label for="10-15 zinnen">10-15 zinnen
-              </label>
-           </li> 
-            <li>
-               <input type="checkbox" id="15-30 zinnen" name="15-30 zinnen" value="15-30 zinnen">
-               <label for="15-30 zinnen">15-30 zinnen
-              </label>
-           </li>
-           
-           <li>
-               <input type="checkbox" id="30-75 zinnen" name="30-75 zinnen" value="30-75 zinnen">
-               <label for="30-75 zinnen">40-75 zinnen
-              </label>
-           </li>
-           
-           
-           </fieldset>
-           -->
-           
-<p>Filter op aantal zinnen</p>
 
-<div>
-  <input type="checkbox" id="zinnen" name="zinnen"
-         checked>
-  <label for="zinnen">15-20 zinnen</label>
-</div>
-
-<div>
-  <input type="checkbox" id="zinnen" name="zinnen"
-         checked>
-  <label for="zinnen">15-20 zinnen</label>
-</div>
-
-      <div>
-  <input type="checkbox" id="zinnen" name="zinnen"
-         checked>
-  <label for="zinnen">15-20 zinnen</label>
-</div>
-       
-        <button>"recent"</button>
-        <button>"Meeste likes"</button>
-        <button>"Meest gelezen"</button>
-        
-    </form>
-
-   <section>
-   <h1>Verhaal van de dag</h1>
-   <h2>Charlee sheen</h2>
-    
-   <img src="images/charlie.png" alt= "schilderij van verhaal charlie sheen" class="verhaalcharlie-foto" height="600" width="375" >
-    </section>
-   
-   <ul>
-       <li>12-05-2018</li>
-       <li>Overdreven</li>
-       <li>10-15 zinnen</li>
-   </ul>
-
-
-<footer>
-<p>Marilyn Doornink</p>
-</footer>
+    <footer>
+        <p>Marilyn Doornink</p>
+    </footer>
 
 
 </body>
+
 </html>
