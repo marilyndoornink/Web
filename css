@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+
+/*fonts*/
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', bold;
+    vertical-align: middle;
+    text-align: center;
+    color: blue;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    /*    font-size: 16px;*/
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+article {
+    /*    width: 20em;*/
+    margin: 1em;
+    padding: 2em;
+    background-color: red;
+    vertical-align: middle;
+}
+
+nav {
+    background: white;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.5s ease;
+    padding: 4px;
+    margin-top: 0;
+    display: flex;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+    font-family: 'Source Sans Pro', bold;
+    text-align: center;
+}
+
+form {
+    background: grey;
+    padding: 20px;
+}
+
+button {
+    color: red;
+}
+
+footer {
+    background: grey;
+    padding: 20px;
+}
