@@ -1,0 +1,155 @@
+body {
+    margin: 0.9em;
+    height: 100%;
+}
+
+
+/*fonts*/
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', bold;
+    vertical-align: middle;
+    padding: 0.77em; 
+    color: blue;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    /*    font-size: 16px;*/
+    padding: 0.77em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+nav {
+  display: flex;
+  height: 5em;
+width: 100%;
+    justify-content: center;
+}
+
+
+main article img{
+    width: 100%;
+/*    border-radius: .0625rem solid #ccc;*/
+}
+
+main article {
+    margin-top: 2em;
+        border-radius: 1em;
+    border: .0625rem solid #ccc;
+    background: grey;
+}
+
+
+article li {
+    list-style: none;
+    padding-left: 0.77em;
+    justify-content: flex-start;
+}
+
+img {
+   width: 100%;
+    
+}
+
+nav img {
+   width: 100%;
+    height: 0,3em;
+    margin-left: 1em;
+    
+    
+}
+
+img[src="images/logo%20menu.png"] {
+  width: 30%;
+}
+
+img[src="images/headerret.jpg"] {
+  width: 100%;
+    padding: 0em; 
+    height: 220px;
+}
+
+header h1{
+    align-items: flex-start;
+}
+
+
+ul {
+    padding: 0em;
+}
+
+nav a{
+    justify-content: flex-end;
+    height: 2em;
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+}
+
+form {
+    background: red;
+    
+}
+
+label {
+    display:flex;
+    margin-top: 1em;
+}
+
+form button{
+    margin-top: 1em;
+    background: blue;
+}
+
+fieldset{
+    margin-bottom: 2em; 
+    margin-top: 2em;
+}
+
+button {
+  display: flex;
+  width: 100%;
+}
+
+button div {
+  flex: 1;
+  color: #fff;
+  background-color: skyblue;
+border-style: none;
+    padding: 0.5em;
+}
+button div:first-child {
+  background: blue;
+padding: 0.5em;
+}
+
+article {
+        margin-top: 2em;
+        border-radius: 1em;
+    border: .0625rem solid #ccc;
+    background-color: skyblue;
+}
+/*bron: http://iamdustan.com/2014/07/28/flexbox-buttons/*/
+
+/*img max-width: 100;
+en wil je max ecfht max dan is width:100%;
+ul -> 0 padding;
+das voor ul in verhaal links
+
+
+*/
