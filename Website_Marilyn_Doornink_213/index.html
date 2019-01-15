@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verhalen website RET</title>
+    <link rel="stylesheet" type="text/css" href="css/styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+<!--        <img id="hier" src="images/logo.png" alt="logo van ret">-->
+               <a href=index.html> <img src="images/logo.png"alt="logo van ret"> </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href=Zoeken.html> <img src="images/zoek%20icon.png" alt="icon zoeken"> </a>
+                </li>
+                <li>
+                    <a href=downloads.html> <img src="images/download%20icon.png" alt="icon dowloads"> </a>
+                </li>
+                <li>
+                    <a href=account.html> <img src="images/profiel%20icon.png" alt="account dowloads"> </a>
+                </li>
+                <li>
+                    <a href=Likes.html> <img src="images/like%20icon.png" alt="Like icon"> </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+        <h1>Presentator die ten onrechte denkt aansluiting te hebben gevonden bij ‘de kids’</h1>
+        <button>Verhaal van de dag lezen</button>
+    </section>
+
+
+
+    <section>
+        <ul>
+            <li>Filters</li>
+            <li>Sfeer</li>
+            <li>Leesduur</li>
+        </ul>
+        <h2><span>99</span> gevonden verhalen </h2>
+    </section>
+
+    <select>
+                        <option value="0">Sorteren op</option>
+                        <option value="1">Recent</option>
+                        <option value="2">Meest gelezen</option>
+                        <option value="3">Meeste Likes</option>
+                        <option value="4">Meest gedownload</option>
+                        <option value="5">A-Z</option>
+
+      </select>
+
+    <form id="sfeermenu" action="">
+        <fieldset>
+            <legend>Sfeer</legend>
+            <label>Formeel (9)<input type="radio" name="radio-btn" /></label>
+            <label>Avontuur (9)<input type="radio" name="radio-btn" /></label>
+            <label>Geschiedenis (4)<input type="radio" name="radio-btn" /></label>
+            <label>Grappig (8)<input type="radio" name="radio-btn" /></label>
+            <label>Vrolijk (8)<input type="radio" name="radio-btn" /></label>
+            <label>Gewelddadig (4)<input type="radio" name="radio-btn" /></label>
+            <label>Meertalig (3)<input type="radio" name="radio-btn" /></label>
+            <label>Spanning (6)<input type="radio" name="radio-btn" /></label>
+            <label>Overdreven (11)<input type="radio" name="radio-btn" /></label>
+
+        </fieldset>
+        
+    </form>
+    <form id="leesduurmenu" action="">
+        <fieldset>
+            <legend>Leesduur</legend>
+            <div>
+                <input type="range" list="tickmarks">
+                <datalist id="tickmarks2">
+              <option value="0">
+              <option value="1">
+              <option value="1.5">
+              <option value="2">
+              <option value="2.5">
+              <option value="3">
+              <option value="3.5">
+              <option value="4">
+              <option value="4.5">
+              <option value="5">
+              <option value="6">
+             </datalist>
+            </div>
+        </fieldset>
+    </form>
+
+
+    <main>
+        <a href="verhaal.html">
+            <article>
+                <div><img src="images/like%20icon.png" alt="Like icon">
+                    <img src="images/nognietdownloadicon.png" alt="nog niet gededownload icon">
+                </div>
+
+                <img src='images/thumbnail3.jpg' alt="Afbeelding verhaal Charlie Sheen">
+                <h2>Charlie Sheen</h2>
+
+                <ul>
+                    <li><img src="images/genre.png" alt="Genre">Overdreven</li>
+                    <li><img src="images/leesduur.png" alt="Leesduur">02:30 minuten</li>
+                    <li><img src="images/datum.png" alt="Like icon">12/08/2011</li>
+                </ul>
+                <ul>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+            </article>
+        </a>
+
+
+        <article>
+            <div><img src="images/like%20icon.png" alt="Like icon">
+                <img src="images/nognietdownloadicon.png" alt="nog niet gededownload icon">
+            </div>
+
+            <img src='images/thumbmail4.jpg' alt="Afbeelding verhaal Altzheimer">
+            <h2>Alzheimer</h2>
+
+            <ul>
+                <li><img src="images/genre.png" alt="Genre">Spanning</li>
+                <li><img src="images/leesduur.png" alt="Leesduur">03:20 minuten</li>
+                <li><img src="images/datum.png" alt="Like icon">02/03/2011</li>
+            </ul>
+            <ul>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li id="demo"><button>Klik hier als je het al gelezen hebt.</button></li>
+            </ul>
+            
+<!--            <p id="demo">Klik hier als je het al gelezen hebt.</p>-->
+        </article>
+
+        <article>
+            <div><img src="images/like%20icon.png" alt="Like icon">
+                <img src="images/nognietdownloadicon.png" alt="nog niet gededownload icon">
+            </div>
+
+            <img src='images/thumbnail2.png' alt="Afbeelding verhaal interview">
+            <h2>Interview</h2>
+
+            <ul>
+                <li><img src="images/genre.png" alt="Genre">Formeel</li>
+                <li><img src="images/leesduur.png" alt="Leesduur">03:30 minuten</li>
+                <li><img src="images/datum.png" alt="Like icon">12/02/2011</li>
+            </ul>
+            <ul>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+            
+            </ul>
+        </article>
+
+        <article>
+            <div><img src="images/like%20icon.png" alt="Like icon">
+                <img src="images/nognietdownloadicon.png" alt="nog niet gededownload icon">
+            </div>
+
+            <img src='images/thumbnail6.jpg' alt="Afbeelding verhaal Presentator die ten onrechte denkt aansluiting te hebben gevonden bij ‘de kids’">
+            <h2>Presentator die ten onrechte denkt aansluiting te hebben gevonden bij ‘de kids’</h2>
+
+            <ul>
+                <li><img src="images/genre.png" alt="Genre">Geestig</li>
+                <li><img src="images/leesduur.png" alt="Leesduur">02:30 minuten</li>
+                <li><img src="images/datum.png" alt="Like icon">12.08/2016</li>
+            </ul>
+            <ul>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+            </ul>
+        </article>
+
+        <article>
+            <div><img src="images/like%20icon.png" alt="Like icon">
+                <img src="images/nognietdownloadicon.png" alt="nog niet gededownload icon">
+            </div>
+
+            <img src='images/thumbnail5.jpg' alt="Afbeelding verhaal Lepra">
+            <h2>Lepra</h2>
+
+            <ul>
+                <li><img src="images/genre.png" alt="Genre">Spannend</li>
+                <li><img src="images/leesduur.png" alt="Leesduur">02:30 minuten</li>
+                <li><img src="images/datum.png" alt="Like icon">13/06/2011</li>
+            </ul>
+            <ul>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+
+            </ul>
+        </article>
+        
+               <article>
+            <div><img src="images/like%20icon.png" alt="Like icon">
+                <img src="images/nognietdownloadicon.png" alt="nog niet gededownload icon">
+            </div>
+
+            <img src='images/thumbnail7.jpg' alt="Afbeelding verhaal Martin Bril">
+            <h2>Martin Bril</h2>
+
+            <ul>
+                <li><img src="images/genre.png" alt="Genre">Avontuurlijk</li>
+                <li><img src="images/leesduur.png" alt="Leesduur">04:30 minuten</li>
+                <li><img src="images/datum.png" alt="Like icon">12/11/2011</li>
+            </ul>
+            <ul>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+                <li class="fa fa-star"></li>
+
+            </ul>
+        </article>
+        
+
+
+    </main>
+
+    <script src="/js/interacties.js"></script>
+    
+</body>
+
+</html>
