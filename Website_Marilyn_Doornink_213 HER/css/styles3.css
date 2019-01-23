@@ -1,0 +1,204 @@
+* {
+    box-sizing:border-box;
+}
+body {
+   font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F5F5F6;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.2em;
+    color: #D82231;
+    text-align: center;
+    display: none;
+}
+
+
+
+p, li, legend, option, label{
+    font-size: 1em;
+/*    color: #00477F*/
+color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: #00477F;
+    margin-top: 1em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+a:hover{
+    color: #D82231;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 3.25em;
+}
+
+header>img {
+    position: relative;
+    width: 4em;
+    height: auto;
+    left: 0.63em;
+    padding-top: 0.31em;
+}
+
+header>nav>ul {
+    list-style: none;
+    right: 5%;
+    top: 0%;
+    padding-left: 0%;
+    margin-top: 0.5em;
+}
+
+header>nav>ul>li {
+    display: inline;
+    padding: 0.2rem;
+}
+
+header>nav>ul>li>a>img {
+    width: 2.4em;
+}
+
+header>a>img{
+        width: 4em;
+        position: relative;
+    height: auto;
+    left: 0.63em;
+}
+
+
+
+section:last-of-type{
+    display: flex;
+    justify-content: center;
+      flex-direction: column;
+    align-items: center;
+
+}
+
+    
+form{
+    margin-left: 1em;
+    margin-right: 1em;
+      transition: 1s;
+  padding:4em;
+  background:HoneyDew;
+     display: flex;
+        justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30em;
+}
+
+input {
+    width: 15em;
+    height: 3em;
+    border: 2px solid white;
+    background-color: lightpink;
+}
+
+input:hover{
+    border: 2px solid white;
+}
+
+input:active{
+    border: 2px solid green;
+    background-color: white;
+}
+
+input:focus {
+  transform: scale(1.01, 1.01);
+background-color: white;
+}
+
+input:invalid {
+  border-color:white;
+/*  background: LightPink;*/
+}
+
+form>input:valid{
+        background: url(../images/iconfinder_sign-check_299110.svg);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 130px 0px;
+        background-color: honeydew;
+}
+
+
+button{
+    right: 4.5%;
+    top: 21.87em;
+    font-size: 100%;
+    color: #00477F;
+    background-color: #D3EFFC;
+    padding: 0.63em 10%;
+    border-radius: 0.32em;
+    border: 0.06em solid #D3EFFC; 
+    margin-top: 2em;
+}
+
+section:first-of-type{
+    background-image: url(../images/headerret.jpg);
+    background-size: cover;
+    width: 100%;
+    left: 0;
+    height: 13.75em;
+    text-align: center;
+    min-height: 15em;
+}
+
+label{
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #6d6e71;
+    margin-left: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h2{
+    border-bottom: 2px #ed1a2d solid;
+    color: #00477F;
+    font-size: 1.13em;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+form:invalid{
+    background: LightPink;
+}
+
+form:valid p{
+    display: none;
+    transition: 5s;
+}
+    
+
+button:hover{
+    background-color: red;
+    color: white;
+    transition: all .5s;
+}
+
+
+
+p {
+    font-size: 0.75em;
+    max-width: 12em;
+    text-align: center;
+}
+
